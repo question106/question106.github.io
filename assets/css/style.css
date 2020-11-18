@@ -1865,7 +1865,7 @@ header .top-nav .secondary-menu ul li {
 }
 
 header .top-nav .secondary-menu ul li a {
-  font-size: 14px;
+  font-size: 11px;
   line-height: 24px;
   color: #757575;
 }
@@ -2200,8 +2200,8 @@ header nav.navbar #menu .menu-holder ul li, header nav.navbar #sidemenu .menu-ho
 
 header nav.navbar #menu .menu-holder ul li a, header nav.navbar #sidemenu .menu-holder ul li a, header nav.navbar #menu-classic .menu-holder ul li a {
   margin-right: 30px;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 15px;
+  line-height: 27px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #757575;
