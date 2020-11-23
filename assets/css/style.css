@@ -7726,4 +7726,17 @@ button.mfp-close:hover {
 .table-desktop{
   display: none;
 }
+
+.margin-bottom-medium{
+  margin-bottom: 37px;
+}
+
+.contact-box{
+  text-align: center;
+}
+
+.howtostep-icon{
+  display: flex !important;
+  justify-content: center;
+}
 }
