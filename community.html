@@ -30,9 +30,6 @@
         <!-- Magnific Popup -->
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
-        <!-- Modal -->
-        <link rel="stylesheet" href="assets/css/modaal.min.css">
-
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -63,138 +60,28 @@
         <header id="header">
             <div class="top-nav">
                 <!--  Header Logo  -->
-                <div class="col-6 text-left" id="logo">
+                <div id="logo">
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/main/logo.svg" class="normal" alt="logo">
+                        <img src="assets/img/main/logo.png" class="normal" alt="logo">
                     </a>
-                </div>
-                <div class=" col-6 text-right language">
-                            <select class="selectpicker" data-width="fit">
-                                <option  data-content='<span class="flag-icon flag-icon-mx"></span> Kor'>Kor</option>
-                                <option data-content='<span class="flag-icon flag-icon-us"></span> Eng'>Eng</option>
-                                <option data-content='<span class="flag-icon flag-icon-us"></span> Mon'>Mon</option>
-                            </select>
                 </div>
                 <!--  END Header Logo  -->
                 <div class="secondary-menu">
                     <ul>
-<!--                        <li class="mail">-->
-<!--                            <a href="maito:info@domain.com">info@domain.com</a>-->
-<!--                        </li>-->
-<!--                        <li class="phone">-->
-<!--                            +39 123456789-->
-<!--                        </li>-->
                         <li>
-                            <a href="#modaal" class="inline small active margin-null">로그인</a>
-                            <div id="modaal">
-                                <div class="row no-margin content-section">
-                                    <div class="text">
-                                        <h2 class="title">로그인</h2>
-                                        <h3 class="margin-bottom-null"> 세상에 없던 새로운 마이닝 시스템 UHP 마이닝을 지금 만나보세요</h3>
-                                        <div class="row padding-onlytop-md">
-                                            <div class="col-md-12 padding-leftright-null">
-                                                <div class="text padding-md-top-null">
-                                                    <div class="box-form">
-                                                        <form id="contact-form">
-                                                            <div class="row no-margin">
-                                                                <!-- <div class="col-md-12 padding-leftright-null">
-                                                                    <label for="name">Name<sup>*</sup></label>
-                                                                    <input class="form-field" name="name" id="name" type="text" placeholder="Your Name">
-                                                                </div> -->
-                                                                <div class="col-md-12 padding-leftright-null">
-                                                                    <label for="mail">이메일<sup>*</sup></label>
-                                                                    <input class="form-field" name="mail" id="mail" type="text">
-                                                                </div>
-                                                                <div class="col-md-12 padding-leftright-null">
-                                                                    <label for="password">비밀번호<sup>*</sup></label>
-                                                                    <input class="form-field" name="mail" id="mail" type="text">
-                                                                    <div class="submit-area padding-onlytop-sm">
-                                                                        <input type="submit" id="submit-contact" class="btn-alt active shadow" value="로그인">
-                                                                        <div id="msg" class="message"></div> 
-                                                                        <a href="#" class="btn-alt small active margin-null">회원가입</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!-- <div class="row no-margin">
-                                                                <div class="col-md-12 padding-leftright-null">
-                                                                    <label for="messageForm">Message<sup>*</sup></label>
-                                                                    <textarea class="form-field" name="messageForm" id="messageForm" rows="6" placeholder="Your Message"></textarea>
-                                                                    
-                                                                </div>
-                                                            </div> -->
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--  END Contact Form  -->
-                                        </div>
-                                    </div>
-                                </div>
+                            <a href="">로그인</a>
                         </li>
                         <li>
-                            <a href="#modaalContent" class="inline small active margin-null">회원가입</a>
-                            <div id="modaalContent">
-                                <div class="row no-margin content-section">
-                                    <div class="text">
-                                        <h2 class="title">회원가입</h2>
-                                        <h3 class="margin-bottom-null"> HASHPOWER COMMUNITY에 오신 것을 환영합니다</h3>
-                                        <h3 class="margin-bottom-null"> 19세 미만의 외원님은 서비스 이용이 불가능합니다</h3>
-                                        <div class="row padding-onlytop-md">
-                                            <div class="col-md-12 padding-leftright-null">
-                                                <div class="text padding-md-top-null">
-                                                    <div class="box-form">
-                                                        <form id="contact-form">
-                                                            <div class="row no-margin">
-                                                                <div class="col-md-12 padding-leftright-null">
-                                                                    <label for="name">Name<sup>*</sup></label>
-                                                                    <input class="form-field" name="name" id="name" type="text" placeholder="이름">
-                                                                </div>
-                                                                <div class="col-md-12 padding-leftright-null">
-                                                                    <label for="mail">이메일<sup>*</sup></label>
-                                                                    <input class="form-field" name="mail" id="mail" type="text">
-                                                                </div>
-                                                                <div class="col-md-12 padding-leftright-null">
-                                                                    <label for="phone"">전화번호<sup>*</sup></label>
-                                                                    <input class="form-field" name="phone" id="phone" type="number">
-                                                                </div>
-                                                                <div class="col-md-12 padding-leftright-null">
-                                                                    <label for="password">비밀번호<sup>*</sup></label>
-                                                                    <input class="form-field" name="password" id="password" type="password">
-                                                                    <label for="password">비밀번호 확인<sup>*</sup></label>
-                                                                    <input class="form-field" name="password" id="password" type="password">
-                                                                    <label for="password">레퍼럴 코드<sup>*</sup></label>
-                                                                    <input class="form-field" name="password" id="password" type="password">
-                                                                    <div class="submit-area padding-onlytop-sm">
-                                                                        <input type="submit" id="submit-contact" class="btn-alt active shadow" value="회원가입">
-                                                                        <div id="msg" class="message"></div> 
-                                                                        <a href="#" class="btn-pro margin-null">비밀번호 찾기</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <!-- <div class="row no-margin">
-                                                                <div class="col-md-12 padding-leftright-null">
-                                                                    <label for="messageForm">Message<sup>*</sup></label>
-                                                                    <textarea class="form-field" name="messageForm" id="messageForm" rows="6" placeholder="Your Message"></textarea>
-                                                                    
-                                                                </div>
-                                                            </div> -->
-                                                        </form>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!--  END Contact Form  -->
-                                        </div>
-                                    </div>
-                                </div>
+                            <a href="">회원가입</a>
                         </li>
                         <li>
-                            <a href="#">마이페이지</a>
+                            <a href="">마이페이지</a>
                         </li>
                         <li>
-                            <a href="#">지갑</a>
+                            <a href="">지갑</a>
                         </li>
                         <li>
-                            <a href="#">공지사항</a>
+                            <a href="">공지사항</a>
                         </li>
                         <li class="lang">
                             <span class="current"><a href="#">Kor</a></span>
@@ -202,10 +89,10 @@
                                 <li><a href="#">Eng</a></li>
                             </ul>
                         </li>
-                        <!-- Search Icon
+                        <!-- Search Icon -->
                         <li class="search">
                             <i class="fa fa-search" aria-hidden="true"></i>
-                        </li> -->
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -213,8 +100,7 @@
                 <div id="menu-classic">
                     <div class="menu-holder">
                         <ul>
-                            <!-- For drop down menu: class="submenu" -->
-                            <li> 
+                            <li class="submenu">
                                 <a href="uhpstaking.html">UHP Staking</a>
 <!--                                <ul class="sub-menu">-->
 <!--                                    <li><a href="index.html">Home Classic</a></li>-->
@@ -222,16 +108,16 @@
 <!--                                </ul>-->
                             </li>
                             <li>
-                                <a href="ulgenstaking.html">Ulgen Staking</a>
+                                <a href="ulgenstaking.html">ULGEN Staking</a>
                             </li>
                             <li>
-                                <a href="btcmining.html">BTC Cloud Mining</a>
+                                <a href="services.html">BTC Cloud Mining</a>
                             </li>
-                            <li>
-                                <a href="uhpbonus.html">UHP Bonus</a>
+                            <li class="submenu">
+                                <a href="javascript:void(0)">UHP Bonus</a>
                             </li>
-                            <li>
-                                <a href="community.html">Community</a>
+                            <li class="submenu">
+                                <a href="javascript:void(0)">Community</a>
                             </li>
                         </ul>
                     </div>
@@ -245,32 +131,19 @@
                 </div>
                 <!--  END Button for Responsive Menu Classic  -->
                 <div class="secondary-menu-mobile">
-                    <!-- <ul>
+                    <ul>
                         <li class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="maito:info@domain.com">info@domain.com</a></li>
                         <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i>+39 123456789</li>
                         <li class="lang">
-                            <span class="current"><a href="#">Kor</a></span>
+                            <span class="current"><a href="#">En</a></span>
                             <ul>     
-                                <li><a href="#">Eng</a></li>
+                                <li><a href="#">It</a></li>
                             </ul>
                         </li>
-                    </ul> -->
-                    <ul class="dashboard">
-                        <!-- <li><a href=""><img class="register-icon" src="data:image/svg+xml;base64,PHN2ZyBpZD0iX3gzMV8iIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im05LjUgMjFoLTdjLTEuMzc4IDAtMi41LTEuMTIxLTIuNS0yLjV2LTEzYzAtMS4zNzkgMS4xMjItMi41IDIuNS0yLjVoMmMuMjc2IDAgLjUuMjI0LjUuNXMtLjIyNC41LS41LjVoLTJjLS44MjcgMC0xLjUuNjczLTEuNSAxLjV2MTNjMCAuODI3LjY3MyAxLjUgMS41IDEuNWg3Yy4yNzYgMCAuNS4yMjQuNS41cy0uMjI0LjUtLjUuNXoiLz48cGF0aCBkPSJtMTYuNSA5Yy0uMjc2IDAtLjUtLjIyNC0uNS0uNXYtM2MwLS44MjctLjY3My0xLjUtMS41LTEuNWgtMmMtLjI3NiAwLS41LS4yMjQtLjUtLjVzLjIyNC0uNS41LS41aDJjMS4zNzggMCAyLjUgMS4xMjEgMi41IDIuNXYzYzAgLjI3Ni0uMjI0LjUtLjUuNXoiLz48cGF0aCBkPSJtMTEuNSA2aC02Yy0uODI3IDAtMS41LS42NzMtMS41LTEuNXYtMmMwLS4yNzYuMjI0LS41LjUtLjVoMS41NWMuMjMzLTEuMTQgMS4yNDItMiAyLjQ1LTJzMi4yMTcuODYgMi40NSAyaDEuNTVjLjI3NiAwIC41LjIyNC41LjV2MmMwIC44MjctLjY3MyAxLjUtMS41IDEuNXptLTYuNS0zdjEuNWMwIC4yNzUuMjI0LjUuNS41aDZjLjI3NiAwIC41LS4yMjUuNS0uNXYtMS41aC0xLjVjLS4yNzYgMC0uNS0uMjI0LS41LS41IDAtLjgyNy0uNjczLTEuNS0xLjUtMS41cy0xLjUuNjczLTEuNSAxLjVjMCAuMjc2LS4yMjQuNS0uNS41eiIvPjxwYXRoIGQ9Im0xNy41IDI0Yy0zLjU4NCAwLTYuNS0yLjkxNi02LjUtNi41czIuOTE2LTYuNSA2LjUtNi41IDYuNSAyLjkxNiA2LjUgNi41LTIuOTE2IDYuNS02LjUgNi41em0wLTEyYy0zLjAzMyAwLTUuNSAyLjQ2OC01LjUgNS41czIuNDY3IDUuNSA1LjUgNS41IDUuNS0yLjQ2OCA1LjUtNS41LTIuNDY3LTUuNS01LjUtNS41eiIvPjxwYXRoIGQ9Im0xNy41IDIxYy0uMjc2IDAtLjUtLjIyNC0uNS0uNXYtNmMwLS4yNzYuMjI0LS41LjUtLjVzLjUuMjI0LjUuNXY2YzAgLjI3Ni0uMjI0LjUtLjUuNXoiLz48cGF0aCBkPSJtMjAuNSAxOGgtNmMtLjI3NiAwLS41LS4yMjQtLjUtLjVzLjIyNC0uNS41LS41aDZjLjI3NiAwIC41LjIyNC41LjVzLS4yMjQuNS0uNS41eiIvPjxwYXRoIGQ9Im0xMy41IDloLTEwYy0uMjc2IDAtLjUtLjIyNC0uNS0uNXMuMjI0LS41LjUtLjVoMTBjLjI3NiAwIC41LjIyNC41LjVzLS4yMjQuNS0uNS41eiIvPjxwYXRoIGQ9Im0xMC41IDEyaC03Yy0uMjc2IDAtLjUtLjIyNC0uNS0uNXMuMjI0LS41LjUtLjVoN2MuMjc2IDAgLjUuMjI0LjUuNXMtLjIyNC41LS41LjV6Ii8+PHBhdGggZD0ibTguNSAxNWgtNWMtLjI3NiAwLS41LS4yMjQtLjUtLjVzLjIyNC0uNS41LS41aDVjLjI3NiAwIC41LjIyNC41LjVzLS4yMjQuNS0uNS41eiIvPjwvc3ZnPg==" /></a></li>
-                        <li><a href=""><img class="login-icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8Zz4NCgkJCTxwYXRoIGQ9Ik0xNzMuNzgxLDI4MC40NjljLTQuMTYsNC4xNi00LjE2LDEwLjkyMywwLDE1LjA4M2MyLjA5MSwyLjA2OSw0LjgyMSwzLjExNSw3LjU1MiwzLjExNWMyLjczMSwwLDUuNDYxLTEuMDQ1LDcuNTMxLTMuMTE1DQoJCQkJbDY0LTY0YzAuOTgxLTAuOTgxLDEuNzcxLTIuMTc2LDIuMzA0LTMuNDc3YzAuMjk5LTAuNzQ3LDAuMzQxLTEuNTE1LDAuNDY5LTIuMzA0YzAuMTA3LTAuNTk3LDAuMzYzLTEuMTUyLDAuMzYzLTEuNzcxDQoJCQkJYzAtMC44MTEtMC4yOTktMS41MzYtMC40NjktMi4yODNjLTAuMTI4LTAuNTc2LTAuMTI4LTEuMTk1LTAuMzYzLTEuNzQ5Yy0wLjU1NS0xLjM0NC0xLjM2NS0yLjUzOS0yLjM2OC0zLjU2M2wtNjMuOTM2LTYzLjkzNg0KCQkJCWMtNC4xNi00LjE2LTEwLjkyMy00LjE2LTE1LjA4MywwYy00LjE2LDQuMTYtNC4xNiwxMC45MjMsMCwxNS4wODNsNDUuNzYsNDUuNzgxSDMyYy01Ljg4OCwwLTEwLjY2Nyw0Ljc3OS0xMC42NjcsMTAuNjY3DQoJCQkJUzI2LjExMiwyMzQuNjY3LDMyLDIzNC42NjdoMTg3LjU4NEwxNzMuNzgxLDI4MC40Njl6Ii8+DQoJCQk8cGF0aCBkPSJNNDQ0LjYwOCwwYy0xLjY0MywwLTMuMjQzLDAuMzItNC44NDMsMC40OTFDNDM4Ljk1NSwwLjI5OSw0MzguMTg3LDAsNDM3LjMzMywwaC0yNTZDMTUxLjkzNiwwLDEyOCwyMy45MzYsMTI4LDUzLjMzMw0KCQkJCVYxNjBjMCw1Ljg4OCw0Ljc3OSwxMC42NjcsMTAuNjY3LDEwLjY2N3MxMC42NjctNC43NzksMTAuNjY3LTEwLjY2N1Y1My4zMzNjMC0xNy42NDMsMTQuMzU3LTMyLDMyLTMyaDIwNC4wMzJsLTgwLjEwNywzNC4zMjUNCgkJCQljLTE2Ljk2LDcuMjc1LTI3LjkyNSwyMy44OTMtMjcuOTI1LDQyLjM0N3YzMjguNjYxaC05NmMtMTUuMzM5LDAtMjguMzczLTEwLjY2Ny0zMS41NTItMTUuMDgzbC0wLjQ0OC0xMjMuNjI3DQoJCQkJYy0wLjAyMS01Ljg2Ny00LjgtMTAuNjI0LTEwLjY2Ny0xMC42MjRjMCwwLTAuMDIxLDAtMC4wNDMsMGMtNS44ODgsMC4wMjEtMTAuNjQ1LDQuODIxLTEwLjYyNCwxMC43MDlsMC40OTEsMTI0LjMwOQ0KCQkJCWMtMC40MjcsNC42NzIsMS43NzEsOS41NTcsNi42NzcsMTQuOTMzYzguNzI1LDkuNTU3LDI2LjA0OCwyMC43MTUsNDYuMTY1LDIwLjcxNWg5NnYxNy45NDENCgkJCQljMCwyNS4zODcsMjAuNjcyLDQ2LjA1OSw0Ni4wNTksNDYuMDU5YzYuMjkzLDAsMTIuNDE2LTEuMjU5LDE4LjEzMy0zLjcxMmwxMjEuMjE2LTUxLjk0Nw0KCQkJCWMxNi45Ni03LjI3NSwyNy45MjUtMjMuODkzLDI3LjkyNS00Mi4zNDdWNDYuMDU5QzQ5MC42NjcsMjAuNjcyLDQ2OS45OTUsMCw0NDQuNjA4LDB6IE00NjkuMzMzLDQxMy45OTUNCgkJCQljMCw5Ljg5OS01Ljg4OCwxOC44MzctMTQuOTk3LDIyLjcyTDMzMy4xMiw0ODguNjYxYy0zLjA3MiwxLjM0NC02LjM1NywyLjAwNS05LjcyOCwyLjAwNWMtMTMuNjMyLDAtMjQuNzI1LTExLjA5My0yNC43MjUtMjQuNzI1DQoJCQkJVjk4LjAwNWMwLTkuODk5LDUuODg4LTE4LjgzNywxNC45OTctMjIuNzJMNDM0Ljg4LDIzLjMzOWMzLjA3Mi0xLjM0NCw2LjM1Ny0yLjAwNSw5LjcyOC0yLjAwNQ0KCQkJCWMxMy42MzIsMCwyNC43MjUsMTEuMDkzLDI0LjcyNSwyNC43MjVWNDEzLjk5NXoiLz4NCgkJCTxwYXRoIGQ9Ik0zMzAuNjY3LDIzNC42NjdjLTUuODg4LDAtMTAuNjY3LDQuNzc5LTEwLjY2NywxMC42NjdWMjg4YzAsNS44ODgsNC43NzksMTAuNjY3LDEwLjY2NywxMC42NjcNCgkJCQlzMTAuNjY3LTQuNzc5LDEwLjY2Ny0xMC42Njd2LTQyLjY2N0MzNDEuMzMzLDIzOS40NDUsMzM2LjU1NSwyMzQuNjY3LDMzMC42NjcsMjM0LjY2N3oiLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" /></a></li>
-                        <li><a href=""><img class="wallet-icon" src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMyIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PHBhdGggZD0ibTMwIDI2aDJ2LTJoMXYyaDJ2LTJjMi4yMDYgMCA0LTEuNzk0IDQtNCAwLTEuMi0uNTQyLTIuMjY2LTEuMzgyLTMgLjg0LS43MzQgMS4zODItMS44IDEuMzgyLTMgMC0yLjIwNi0xLjc5NC00LTQtNHYtMmgtMnYyaC0xdi0yaC0ydjJoLTR2MmgydjEwaC0ydjJoNHptNS0xNGMxLjEwMyAwIDIgLjg5NyAyIDJzLS44OTcgMi0yIDJoLTV2LTR6bS01IDZoNWMxLjEwMyAwIDIgLjg5NyAyIDJzLS44OTcgMi0yIDJoLTV6Ii8+PHBhdGggZD0ibTIyIDE3aC0yYzAgNi42MTcgNS4zODMgMTIgMTIgMTJ2LTJjLTUuNTE0IDAtMTAtNC40ODYtMTAtMTB6Ii8+PHBhdGggZD0ibTQyIDE3aDJjMC02LjYxNy01LjM4My0xMi0xMi0xMnYyYzUuNTE0IDAgMTAgNC40ODYgMTAgMTB6Ii8+PHBhdGggZD0ibTYwIDE5aC0xMi4xM2MuMDg0LS42NTkuMTMtMS4zMjcuMTMtMiAwLTguODIyLTcuMTc4LTE2LTE2LTE2cy0xNiA3LjE3OC0xNiAxNmMwIC42NzMuMDQ2IDEuMzQxLjEzIDJoLTkuMTNjLTMuMzA5IDAtNiAyLjY5MS02IDZ2MzNjMCAyLjc1NyAyLjI0MyA1IDUgNWg1MmMyLjc1NyAwIDUtMi4yNDMgNS01di0zNmMwLTEuNjU0LTEuMzQ2LTMtMy0zem0wIDJjLjU1MSAwIDEgLjQ0OSAxIDF2Ny4xODRjLS4zMTQtLjExMi0uNjQ4LS4xODQtMS0uMTg0aC0xNy40MjFjMi4zOTYtMi4xMiA0LjEwMy00LjkxNiA0LjkwNC04em0tMjgtMThjNy43MiAwIDE0IDYuMjggMTQgMTQgMCA0LjkwMy0yLjYgOS40NzQtNi43OTcgMTJoLTcuMjAzLTcuMjAzYy00LjE5Ny0yLjUyNi02Ljc5Ny03LjA5Ny02Ljc5Ny0xMiAwLTcuNzIgNi4yOC0xNCAxNC0xNHptLTI1IDE4aDkuNTE3Yy44MDEgMy4wODQgMi41MDggNS44OCA0LjkwNCA4aC0xNC40MjFjLTIuMjA2IDAtNC0xLjc5NC00LTRzMS43OTQtNCA0LTR6bTU0IDI4aC04Yy0yLjIwNiAwLTQtMS43OTQtNC00czEuNzk0LTQgNC00aDh6bTAtMTBoLThjLTMuMzA5IDAtNiAyLjY5MS02IDZzMi42OTEgNiA2IDZoOHY3YzAgMS42NTQtMS4zNDYgMy0zIDNoLTUyYy0xLjY1NCAwLTMtMS4zNDYtMy0zdi0yOC41NGMxLjA2My45NTQgMi40NjIgMS41NCA0IDEuNTRoNTNjLjU1MSAwIDEgLjQ0OSAxIDF6Ii8+PHBhdGggZD0ibTUwIDQ1YzAgMS42NTQgMS4zNDYgMyAzIDNzMy0xLjM0NiAzLTMtMS4zNDYtMy0zLTMtMyAxLjM0Ni0zIDN6bTQgMGMwIC41NTEtLjQ0OSAxLTEgMXMtMS0uNDQ5LTEtMSAuNDQ5LTEgMS0xIDEgLjQ0OSAxIDF6Ii8+PC9nPjwvc3ZnPg==" /></a></li> -->
-                        <li><a href="">로그인</a></li>
-                        <li><a href="">회원가입</a></li>
-                        <li><a href="">지갑</a></li>
-                        
-                        
-                        
-                    </ul>
-                        <!-- Search Icon
+                        <!-- Search Icon -->
                         <li class="search">
                             <i class="fa fa-search" aria-hidden="true"></i>
-                        </li> -->
-                        
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -289,7 +162,8 @@
             </div>
         </header>
         <!--  END Header & Menu  -->
-                   <!--  Main Wrap  -->
+            
+        <!--  Main Wrap  -->
         <div id="main-wrap">
             <!--  Page Content  -->
             <div id="page-content" class="header-static">
@@ -298,96 +172,54 @@
                     <div class="container">
                         <div class="row no-margin">
                             <div class="text text-center">
-                                <h1 class="white">UHP Staking</h1>
+                                <h1 class="white">Community</h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--  Table  -->
                 <div class="container">
-                    <div class="row no-margin padding-lg table-desktop">
+                    <div class="row">
                         <div class="col-md-12">
                             <div class="table-responsive">
                                 <table class="table table-bordered mb-0">
                                     <tbody>
                                     <tr>
+                                        <td   style="    font-size: 30px;
+    font-weight: bold;
+    text-align: center;    display: flex;
+    justify-content: space-between;">보유 ULGEN: 0                                         <a href="#" class="btn margin-null">ULGEN 구매하기</a>
+                                        </td>
                                         <td  style="vertical-align: middle; font-size: 30px"><strong>보상예상:</strong></td>
-                                        <td  style="font-size: 30px; font-weight: bold; text-align: center; display: flex; justify-content: space-between; border: none;">28.7 Ph/s</td>
-                                        <td > 
-                                            <div style= "font-size: 30px; font-weight: bold; display: flex; justify-content: space-between;">
-                                                <span>보유 UHP: 0</span> <a href="#" class="uhpdeposit-btn btn margin-null">UHP 입금하기</a>
-                                            </div>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <td><strong>신청기간:</strong></td>
-                                        <td>2020.11.04 (00시) ~ 2020.11.08 (24시)</td>
-                                        <td rowspan="2" style=" vertical-align: middle;">
-                                            <div id="newsletter-form">
-                                                <form class="search-form">
-                                                    <div class="form-input">
-                                                        <input type="text" placeholder="0" style="color: #242424; text-align: right;padding: 10px 165px 10px 9px; background-color: #e6e6e6; border: 1px solid #d6d6d6;">
-                                                        <span class="form-button" style="height: 42px;width: 145px; display: flex; align-items: center; justify-content: center;"><button type="button">예치신청</button></span>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>BTC 지급일:</strong></td>
-                                        <td>2020.12.01</td>
-                                        
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--  Table Mobile  -->
-                <div class="container">
-                    <div class="row no-margin padding-lg table-mobile">
-                        <div class="col-12">
-                            <div class="table-responsive">
-                                <table class="table table-bordered mb-0">
-                                    <tbody>
-                                    <tr>
-                                        <td  style="vertical-align: middle; font-size: 14px"><strong>보상예상:</strong></td>
-                                        <td  style="    font-size: 14px;
+                                        <td  style="    font-size: 30px;
                                         font-weight: bold;
                                         text-align: center;    display: flex;
                                         justify-content: space-between; border: none;">28.7 Ph/s</td>
                                     </tr>
                                     <tr>
+                                        <td rowspan="2">
+                                            <div id="newsletter-form">
+                                                <form class="search-form">
+                                                    <div class="form-input">
+                                                        <input type="text" placeholder="0" style="   color: #242424; text-align: right;padding: 10px 165px 10px 9px; background-color: #e6e6e6; border: 1px solid #d6d6d6;">
+                                                        <span class="form-button" style="    height: 42px;width: 145px;    display: flex;
+    align-items: center;
+    justify-content: center;">
+                                        <button type="button">예치신청:</button>
+                                    </span>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
                                         <td><strong>신청기간:</strong></td>
-                                        <td style="font-size: 11px;" >2020.11.04 (00시) ~ 2020.11.08 (24시)</td>
+                                        <td>2020.11.04 (00시) ~ 2020.11.08 (24시)</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>BTC 지급일:</strong></td>
+                                        <td><strong>UHP 지급일:</strong></td>
                                         <td>2020.12.01</td>
                                     </tr>
                                     </tbody>
                                 </table>
-                                <table class="table table-bordered mb-0">
-                                    <tbody>
-                                    <tr>
-                                        <td style="font-size: 20px; font-weight: bold; text-align: center; display: flex; justify-content: space-between; align-items: center; flex-direction: column;"> <div style="padding: 10px;">보유 UHP: 0</div> <a href="#" style="width:100%;" class="btn margin-null">UHP 입금하기</a></td>
-                                    </tr>
-                                    <tr >
-                                        <td style="border-top: none;" rowspan="2">
-                                            <div id="newsletter-form">
-                                                <form class="search-form">
-                                                    <div class="form-input">
-                                                        <input type="text" placeholder="0" style="color: #242424; text-align: right;padding: 10px 165px 10px 9px; background-color: #e6e6e6; border: 1px solid #d6d6d6;">
-                                                        <span class="form-button" style="height: 42px;width: 145px; display: flex; align-items: center; justify-content: center;">
-                                                        <button type="button">예치신청</button></span>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                    </tbody>
-                                </table>
-
                             </div>
                         </div>
                     </div>
@@ -432,17 +264,17 @@
         <!--  END Page Content -->
     </div>
         <!--  Main Wrap  -->
-        <div style="background-color: #fff" class="list-of-info">
+        <div style="background-color: #fff">
             <div class="container"> 
                 <!-- Service -->
                 <div class="row no-margin padding-lg">
                     <div class="col-md-4 padding-leftright-null">
                        <div class="text padding-topbottom-null">
-                           <h2 class="margin-bottom-null left">유의 사항</h2>
+                           <h2 class="margin-bottom-null left">Web Desing.</h2>
                        </div>
                     </div>
                     <div class="col-md-8 padding-leftright-null">
-                        <div class="text padding-topbottom-null content-post ">
+                        <div class="text padding-topbottom-null">
                             <!-- <p class="margin-bottom-null"> -->
                                 <ul class="margin-bottom-null dot_tx_list ml10 mt_2">
                                     <li class="dot_li">서비스 이용과 BTC 배당을 받기 위해서는 꼭 '스테이킹 서비스 이용 동의'해 주셔야 합니다.</li>
@@ -495,10 +327,10 @@
         <!--  END Page Content -->
     </div>
         <!--  Main Wrap  -->
-        <div style="background-color: #f6f6f6"></div>
+        <div style="background-color: #fff">
             <div class="container">
                 <!--  Accordion and Tabs  -->
-                <div class="row padding-lg table-c">
+                <div class="row padding-sm">
                 <div class="col-md-12">
                     <!--  Tab  -->
                     <!-- Nav tabs -->
@@ -682,6 +514,13 @@
                             <h5>Ulgen Hash Power</h5>
                         </div>
                         <p>울겐 해시파워 프로젝트는 비트퓨리, MDKI, UHPGlobal 협업을 통한 자산 기반 코인 프로젝트이다. 저전력 요금 및 비트퓨리의 효율적인 채굴블록박스 AC를 활용하여 안정적이고 효율적인 채굴을 하고 있다. 투자자들의 ROI를 극대화하기 위해 코인 이코노미에는 거래소 'BUY BACK-BUN OUT'와 배당용 스테이킹 월렛으로 구성되어있다.</p>
+                        <div style="text-align: center;">
+                            <ul class="social">
+                                <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fa fa-kakaotalk" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -689,22 +528,14 @@
         <div id="copy">
             <div class="container">
                 <div class="row no-margin">
-                    <!-- <div class="col-md-6 text text-right">
+                    <div class="col-md-6 text">
+                        <p>©2017 <a href="#">PuredesignThemes</a>. All rights reserved. </p>
+                    </div>
+                    <div class="col-md-6 text text-right">
                         <ul>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Cookie Policy</a></li>
                             <li><a href="#">Term and Condition</a></li>
-                        </ul>
-                    </div> -->
-                    <div class="col-md-6 text text-left">
-                        <p>©2020 <a href="#">UHPGLOBAL LLC</a>. All rights reserved. </p>
-                    </div>
-                    <div class="col-md-6 text text-right">
-                        <ul class="social">
-                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                            <li><a href=""><i class="fa fa-kakaotalk" aria-hidden="true"><img id="katalk-logo" src="assets/img/main/kakaotalk_logo.png" alt=""></i></a></li>
-                            <li><a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -729,7 +560,6 @@
         <script src="assets/js/plugins-scroll.js"></script>
         <script src="assets/js/imagesloaded.min.js"></script>
         <script src="assets/js/pace.min.js"></script>
-        <script src="assets/js/modaal.min.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
 </html>
