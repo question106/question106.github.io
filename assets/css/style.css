@@ -7690,6 +7690,11 @@ button.mfp-close:hover {
 .table-mobile{
   display: none;
 }
+
+.bitfury-logo-main-slide{
+  max-width:29%;
+  padding-bottom:25px;
+}
 @media screen and (max-width: 650px) {
 .content-section .partners .partner a .img_txt{
   font-size: 10px;
@@ -7738,5 +7743,15 @@ button.mfp-close:hover {
 .howtostep-icon{
   display: flex !important;
   justify-content: center;
+}
+
+.bitfury-logo-main-slide{
+  max-width:81%;
+  padding-bottom:25px;
+}
+
+.main-slide-button{
+  display:flex;
+  flex-direction: column;
 }
 }
