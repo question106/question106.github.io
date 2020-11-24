@@ -7768,4 +7768,28 @@ button.mfp-close:hover {
 #header{
   position: fixed;
 }
+#home-wrap > div > div:nth-child(1) > div > h2{
+  text-align: center;
+}
+
+.content-section .text{ 
+  text-align: center;
+}
+
+.side-image .hash-subtitle {
+  margin-bottom: 55px;
+  align-self: center;
+  justify-content: center;
+  margin-left: 0px;
+  font-size: 24px;
+  text-align: center;
+  padding-top: -20px;
+}
+
+.side-image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0%;
+}
 }
