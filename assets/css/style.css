@@ -7695,6 +7695,11 @@ button.mfp-close:hover {
   max-width:29%;
   padding-bottom:25px;
 }
+
+.header-equal-height{
+  display: none;
+}
+
 @media screen and (max-width: 650px) {
 .content-section .partners .partner a .img_txt{
   font-size: 10px;
@@ -7753,5 +7758,14 @@ button.mfp-close:hover {
 .main-slide-button{
   display:flex;
   flex-direction: column;
+}
+
+.header-equal-height{
+  display: block;
+  height: 102px;
+}
+
+#header{
+  position: fixed;
 }
 }
